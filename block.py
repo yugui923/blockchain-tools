@@ -156,7 +156,7 @@ class txInput:
         s = ""
         if (idx == 0xffffffff):
             s = " Coinbase with special index"
-            print("\tCoinbase Text:\t %s" % hashStr(self.prevhash).decode("utf-8"))
+            print("\tCoinbase Text:\t %s" % hashStr(self.prevhash))
         else:
             print("\tPrev. Tx Hash:\t %s" % hashStr(self.prevhash))
         return "%8x" % idx + s

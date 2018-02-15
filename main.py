@@ -28,7 +28,7 @@ def parse(blockchain, blkNo):
 
 def main():
     if len(sys.argv) < 2:
-        print('Usage: sight.py filename')
+        print('Usage: main.py filename')
     else:
         blkNo = 0xFF
         if (len(sys.argv) == 3):
