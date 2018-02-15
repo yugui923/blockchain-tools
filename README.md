@@ -1,8 +1,9 @@
-This is a fork of block chain tools.
+## Change Log
 
-Recently added a few features, and fixed some bugs. 
-
-See git status for more details.
+2.14.2018  
+- This is a fork of block chain tools, original credits goes to **Alex Gorale**
+- This version is ported from Python2 into Python3
+- Planned feature: add ability to parse multiple block files at onetime
 
 ## Block Chain Tools
 
